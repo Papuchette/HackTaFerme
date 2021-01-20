@@ -1,0 +1,113 @@
+[
+    {
+        "code": "1",
+        "source": "Je cultive des hectares de blé tendre",
+        "parametres": [
+            {
+                "cle": "X",
+                "libelle": "Quantité",
+                "type": "number",
+                "defaut": "1"
+            }
+        ],
+        "traductions": [{
+                "traduction": "Je produis <b>[RES] baguettes</b>🥖 par jour.",
+                "formula": "X * 68",
+                "hashtags": ["CeuxQuiFontLePain", "FierDeMonMetier" ]
+            },
+            {
+                "traduction": "Je nourris <b>[RES] personnes</b> 🍴👪 par an.",
+                "formula": "X * 6000",
+                "hashtags": ["CeuxQuiFontLePain", "FierDeMonMetier" ]
+            }
+        ]
+    },
+    {
+        "code": "2",
+        "source": "Je moissonne mon blé",
+        "parametres": [],
+        "traductions": [{
+                "traduction": "Baguettes en cours de récolte ! 🚜🥖",
+                "hashtags": ["CeuxQuiFontLePain", "Moisson", "FierDeMonMetier" ]
+            },
+			{
+                "traduction": "<img class='img-trad' src='http://localhost/Agri-Traduction/assets/img/trad-moisson.png'>",
+                "hashtags": [  "CeuxQuiFontLePain", "Moisson", "FierDeMonMetier" ]
+            },
+			{
+                "traduction": "C'est la moisson, 🚜 l'occasion de venir découvrir notre métier 👀",
+                "hashtags": [  "CeuxQuiFontLePain", "Moisson", "FierDeMonMetier" ]
+            },
+			{
+                "traduction": "La récolte commence, un p'tit tour en moissonneuse-batteuse ça vous dit? 🚜",
+                "hashtags": [  "CeuxQuiFontLePain", "Moisson", "FierDeMonMetier" ]
+            }
+        ]
+    },
+    {
+        "code": "3",
+        "source": "Je cultive des hectares de tournesol",
+        "parametres": [
+            {
+                "cle": "X",
+                "libelle": "Quantité",
+                "type": "number",
+                "defaut": "1"
+            }
+        ],
+        "traductions": [{
+                "traduction": "Profitez de [RES] ☀️ dans vos champs! 😎 ",
+                "formula": "X * 65000",
+                "hashtags": [ "Tournesol", "FierDeMonMetier" ]
+            }
+        ]
+    },
+	{
+        "code": "4",
+        "source": "Je vais vendanger",
+        "parametres": [],
+        "traductions": [{
+                "traduction": "Les vendanges commencent, 🚜 quelques bouchons sur la route avant de les avoir sur la table 🍷🍷",
+                "hashtags": [  "Vendanges", "FierDeMonMetier" ]
+            }
+        ]
+    },
+	{
+        "code": "5",
+        "source": "Je suis certifié HVE 3",
+        "parametres": [],
+        "traductions": [{
+                "traduction": "Je m'engage pour la biodiversité, plus de haies pour nos oiseaux. 🐤🦉",
+                "hashtags": [  "Biodiversite", "FierDeMonMetier" ]
+            },
+			{
+                "traduction": "Fleurs gastronomiques, 🐝 prochain champ à gauche.",
+                "hashtags": [  "Biodiversite", "Abeilles", "FierDeMonMetier" ]
+            },
+			{
+                "traduction": "Gîte 4* pour 🐸 au sein de mon exploitation.",
+                "hashtags": [  "Biodiversite", "Mare", "FierDeMonMetier" ]
+            }
+        ]
+    },
+	{
+        "code": "6",
+        "source": "Je cultive des plantes mellifères",
+        "parametres": [],
+        "traductions": [{
+                "traduction": "Fleurs gastronomiques, 🐝 prochain champ à gauche.",
+                "hashtags": [  "Biodiversite", "Abeilles", "FierDeMonMetier" ]
+            }
+        ]
+    },
+	{
+        "code": "7",
+        "source": "J'ai créé une mare",
+        "parametres": [],
+        "traductions": [{
+                "traduction": "Gîte 4* pour 🐸 au sein de mon exploitation.",
+                "hashtags": [  "Biodiversite", "Mare", "FierDeMonMetier" ]
+            }
+        ]
+    }
+]
